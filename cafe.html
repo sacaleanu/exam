@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Il Caffé's restaurant page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Caffé - Il Caffé</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/nyk7yrm.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,700,700i&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="cafe" class="hero">
+        <h1 class="title">IL CAFFÉ</h1>
+        <h4 class="subtitle">"Life is what happens between coffee and wine"</h4>
+
+        <div class="menu">
+            <ul>
+                <li><a class="active" href="cafe.html">CAFFÉ</a></li> <!-- REMEMBER! Underline on the selected page to know where you are-->
+                <li><a href="index.html" class="logo active">
+                        <img src="images/logo.png" alt="Il Caffe's logo image">
+                    </a></li>
+                <li><a href="shop.html">BOUTIQUE</a></li>
+            </ul>
+        </div>
+        <div class="menu mobile">
+            <ul>
+                <li><a href="index.html" class="logo active">
+                        <img src="images/logo.png" alt="Il Caffe's logo image">
+                    </a></li>
+                <li><a class="active" href="cafe.html">CAFFÉ</a></li> <!-- REMEMBER! Underline on the selected page to know where you are-->
+                <li><a href="shop.html">BOUTIQUE</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--anchor navigation-->
+    <div id="main-nav" class="nav">
+        <ul>
+            <li><a href="#food">FOOD</a></li>
+            <li><a href="#drinks">DRINKS</a></li>
+            <li><a href="#table">BOOK A TABLE</a></li>
+        </ul>
+    </div>
+    <!--anchor navigation-->
+
+
+    <div id="food" class="parallax">
+        <div class="container">
+            <h2>FOOD</h2>
+            <ul class="foods">
+                <li>
+                    <span class="text">Lasagne</span>
+                    <span class="price">130 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">Pasta alle Vongole</span>
+                    <span class="price">90 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">Pasta Carbonara</span>
+                    <span class="price">130 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">Alfredo</span>
+                    <span class="price">120 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">Pizza Pugliese</span>
+                    <span class="price">120 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">Neapolitan Pizza</span>
+                    <span class="price">130 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">Pizza Margarita</span>
+                    <span class="price">110 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">Tiramisu</span>
+                    <span class="price">60 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="drinks" class="parallax">
+        <div class="container">
+            <h2>DRINKS</h2>
+            <ul class="foods">
+                <li>
+                    <span class="text">Espresso</span>
+                    <span class="price">60 kr</span>
+                </li>
+                <li>
+                    <span class="text">Latte</span>
+                    <span class="price">50 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">Cappuccino</span>
+                    <span class="price">55 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">Macchiato</span>
+                    <span class="price">70 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">Marocchino</span>
+                    <span class="price">65 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">Limoncello</span>
+                    <span class="price">40 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">Aperitif</span>
+                    <span class="price">110 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+                <li>
+                    <span class="text">White Wine (Sangioverse)</span>
+                    <span class="price">60 kr</span>
+                    <div class="clearfix"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="table" class="parallax">
+        <div class="container">
+            <h2>BOOK A TABLE</h2>
+            <form class="reserve">
+                <div class="half-col">
+                    <div class="form-group"><label for="name">Name: *</label><br /><input id="name" name="name" type="text"></div>
+                    <div class="form-group"><label for="phone">Phone number: *</label><br /><input id="phone" name="phone" type="text"></div>
+                    <div class="form-group"><label for="email">Email address:</label><br /><input id="email" name="email" type="email"></div>
+                </div>
+                <div class="half-col">
+                    <div class="form-group"><label for="number">Number of people: *</label><br /><input id="number" name="number" min="1" type="number"></div>
+                    <div class="form-group"><label for="date">Date: *</label><br /><input id="date" name="date" type="date"></div>
+                    <div class="form-group"><label for="hour">Hour: *</label><br /><input id="hour" name="hour" type="time"></div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="full-col">
+                    <div class="form-group">
+                        <label for="message">Additional comments: </label><br>
+                        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <button>Reserve</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="goTop" onclick="window.scrollTo(0,0);"></div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="half-col">
+                Address: Åboulevarden84, 8000 Aarhus, Denmark <br>
+                Phone: <a href="tel:+4526125155">+45 26 12 51 55</a> <br>
+                Email: <a href="mailto:ilcaffepippo@gmail.com">ilcaffepippo@gmail.com</a>
+            </div>
+            <div class="half-col">
+                <div class="social">
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a target="_blank" href="https://www.facebook.com/ilCaffeaarhus/"><img src="images/fb.png" alt="Facebook"></a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </footer>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/siema.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
