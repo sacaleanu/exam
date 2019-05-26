@@ -25,3 +25,9 @@ window.onscroll = function () { // update on scroll
         goTop.classList.remove('visible');
     }
 }
+function scrollTo(element) {
+    var el = element.getAttribute('href');
+    var pos = document.getElementById(el.substring(1));
+    pos = pos.pageYOffset;
+    window.scrollTo(0,pos);
+}
