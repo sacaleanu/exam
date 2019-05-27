@@ -1,0 +1,11 @@
+Sitemap: www.the3rdfloorguy.com/sitemap.xml
+User-agent: *
+Disallow: /project2.1/
+Disallow: /project1.1/
+Disallow: /project1.2/
+Disallow: /project1.3/
+Disallow: /project1.4/
+Disallow: /profile.html
+Dissalow: /exercise07/
+Dissalow: /assignment4/
+Dissalow: /assignment3/
