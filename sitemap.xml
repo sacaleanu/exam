@@ -1,0 +1,25 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <!--
+ created with Free Online Sitemap Generator www.xml-sitemaps.com 
+-->
+<url>
+<loc>http://the3rdfloorguy.com/ilcaffe/</loc>
+<lastmod>2019-05-27T08:12:32+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>http://the3rdfloorguy.com/ilcaffe/cafe.html</loc>
+<lastmod>2019-05-27T08:11:28+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>http://the3rdfloorguy.com/ilcaffe/index.html</loc>
+<lastmod>2019-05-27T08:12:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>http://the3rdfloorguy.com/ilcaffe/shop.html</loc>
+<lastmod>2019-05-27T08:11:28+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+</urlset>
