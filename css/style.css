@@ -11,13 +11,13 @@
      font-family: "Montserrat", sans-serif;
  }
 
- /*resets every element to be bounded by its box*/
+ /*Resets every element to be bounded by its box*/
 
  * {
      box-sizing: border-box;
  }
 
- /*removes underline from links*/
+ /*Removes underline from links*/
 
  a {
      text-decoration: none !important;
