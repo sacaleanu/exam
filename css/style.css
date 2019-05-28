@@ -11,13 +11,13 @@
      font-family: "Montserrat", sans-serif;
  }
 
- /*Resets every element to be bounded by its box*/
+ /*resets every element to be bounded by its box*/
 
  * {
      box-sizing: border-box;
  }
 
- /*Removes underline from links*/
+ /*removes underline from links*/
 
  a {
      text-decoration: none !important;
@@ -655,4 +655,16 @@
      .foods li .text {
          display: block;
      }
+ }
+
+ iframe {
+     border: none;
+     overflow: hidden;
+
+ }
+
+ #cite {
+     font-size: small;
+     font-style: oblique;
+     font-size: 14px;
  }
